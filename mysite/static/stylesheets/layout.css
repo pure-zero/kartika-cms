@@ -1,0 +1,64 @@
+/* line 3, ../sass/layout.scss */
+.container {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* line 8, ../sass/layout.scss */
+.container .navbar {
+  background-color: #003366;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  -moz-box-shadow: inset 0 -8px 6px -6px black;
+  -webkit-box-shadow: inset 0 -8px 6px -6px black;
+  box-shadow: inset 0 -8px 6px -6px black;
+  border-bottom: 0px;
+}
+/* line 14, ../sass/layout.scss */
+.container .navbar a {
+  color: white;
+}
+/* line 17, ../sass/layout.scss */
+.container .navbar .nav > li > a:focus, .container .navbar .nav > li > a:hover {
+  background-color: black;
+}
+/* line 20, ../sass/layout.scss */
+.container .navbar .dropdown-menu {
+  background-color: black;
+}
+/* line 24, ../sass/layout.scss */
+.container .vid-container {
+  height: 280px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 28, ../sass/layout.scss */
+.container .vid-container .video-bg {
+  position: fixed;
+  z-index: -100;
+  object-fit: cover;
+  width: 100%;
+  margin-top: -230px;
+}
+/* line 36, ../sass/layout.scss */
+.container .jumbotron {
+  -moz-box-shadow: inset 0 8px 6px -6px black;
+  -webkit-box-shadow: inset 0 8px 6px -6px black;
+  box-shadow: inset 0 8px 6px -6px black;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+/* line 41, ../sass/layout.scss */
+.container .white-background {
+  background-color: white;
+  padding-top: 30px;
+}
+/* line 45, ../sass/layout.scss */
+.container .content {
+  width: 1120px;
+  margin: 0px auto;
+}

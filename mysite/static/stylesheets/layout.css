@@ -52,12 +52,17 @@
   border-radius: 0px;
   margin-bottom: 0px;
 }
-/* line 41, ../sass/layout.scss */
+/* line 40, ../sass/layout.scss */
+.container .jumbotron .author {
+  margin-left: 350px;
+  margin-top: -10px;
+}
+/* line 45, ../sass/layout.scss */
 .container .white-background {
   background-color: white;
   padding-top: 30px;
 }
-/* line 45, ../sass/layout.scss */
+/* line 49, ../sass/layout.scss */
 .container .content {
   width: 1120px;
   margin: 0px auto;

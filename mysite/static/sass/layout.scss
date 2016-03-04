@@ -22,7 +22,6 @@
     }
   }
   .vid-container{
-    height: 280px;
     width:100%;
     overflow: hidden;
     .video-bg{
@@ -47,7 +46,7 @@
     padding-top:30px;
   }
   .content{
-    width: 1120px;
+    max-width: 1120px;
     margin: 0px auto;
   }
 }

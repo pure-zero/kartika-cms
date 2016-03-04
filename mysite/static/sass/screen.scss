@@ -1,4 +1,106 @@
 /* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+ * Media Queries are going to go here now!
+ */
+  $XLarge: "1400px";
+  $Large: "1200px";
+  $Medium: "992px";
+  $Small: "768px";
+  $ExtraSmall: "480px";
+  $Retina: "320px";
+
+
+  /*==========  Mobile First Method  ==========*/
+
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width : $Retina){
+    .container {
+      .vid-container {
+        height: 100px;
+        .video-bg {
+          margin-top: -51px;
+        }
+      }
+    }
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : $ExtraSmall) {
+    .container .vid-container .video-bg{
+      margin-top:-51px;
+    }
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : $Small) {
+    .container {
+      .vid-container {
+        height: 230px;
+        .video-bg {
+          margin-top: -120px;
+        }
+      }
+    }
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : $Medium) {
+    .container {
+      .vid-container {
+         height: 280px;
+        .video-bg {
+          margin-top: -140px;
+        }
+      }
+    }
+  }
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : $Large) {
+    .container {
+      .vid-container {
+         height: 280px;
+        .video-bg {
+          margin-top: -175px
+        }
+      }
+    }
+  }
+  /* XLarge Devices, Wide Screens */
+  @media only screen and (min-width : $XLarge) {
+    .container {
+      .vid-container {
+         height: 280px;
+        .video-bg {
+          margin-top: -230px
+        }
+      }
+    }
+  }
+
+
+  /*==========  Non-Mobile First Method  ==========*/
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : $Large) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : $Medium) {
+
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : $Small) {
+
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : $ExtraSmall) {
+
+  }
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width : $Retina) {
+
+  }

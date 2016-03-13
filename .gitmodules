@@ -1,0 +1,3 @@
+[submodule "djangocms-googlemap"]
+	path = djangocms-googlemap
+	url = https://github.com/pure-zero/djangocms-googlemap.git

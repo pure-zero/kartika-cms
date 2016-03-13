@@ -2,4 +2,4 @@
 /project.db
 /.sass-cache/
 *.pyc
-
+mysite/static/.sass-cache/

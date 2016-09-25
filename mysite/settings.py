@@ -219,12 +219,12 @@ CMS_PLACEHOLDER_CONF = {}
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
-        'NAME': 'project.db',
-        'PASSWORD': '',
+        'NAME': 'coder_horizon_djcms',
+        'PASSWORD': get_env_variable('DATABASE_PASSWORD'),
         'PORT': '',
-        'USER': ''
+        'USER': 'root'
     }
 }
 
